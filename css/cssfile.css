@@ -1,0 +1,125 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:Red;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn,.homebtn{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover,.home:hover{
+    background-color:grey;
+}
+
+li.dropdown,.home {
+    display: inline-block;
+}
+
+.dropdown-content,.home-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.home-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+.home-content a:hover{
+    background-color: #f1f1f1
+
+}
+
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.home:hover .home-content
+{
+    display: block
+}
+.fontdiv
+{
+  font-fam13y: 'vendana', serif;
+
+}
+.grid123 {
+  position: fixed;
+  opacity:.7;
+
+  width: 100%;
+}
+.footer
+{
+  background-color:aqua;
+  height: 100px;
+}
+.red
+{
+  color:red;
+}
+.ptext
+{
+  font-size:130%;
+  font-family:cursive;
+}
+.Menutext
+{
+  font-size:200%;
+  color:red;
+  font-family: fantasy;
+
+}
+.menuimage
+{
+  align-self: center;
+  background-color: #ccccf;
+}
+body
+{
+  scrollbar-base-color: #ff1a1a;
+scrollbar-arrow-color: #ff1a1a;
+
+scrollbar-shadow-color: #ff1a1a;
+scrollbar-lightshadow-color: #ff1a1a;
+scrollbar-darkshadow-color: #ff1a1a;
+
+scrollbar-highlight-color: #ff1a1a;
+scrollbar-3dlight-color: #ff1a1a;
+}
+.hrc
+{
+
+	border-top: 3px solid #8c8b8b;
+
+}
